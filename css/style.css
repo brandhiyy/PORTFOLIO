@@ -43,6 +43,7 @@ header {
 
 header nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 30px;
 }
@@ -108,7 +109,10 @@ header nav a:hover {
 .btn:hover {
   transform: translateY(-3px);
 }
-
+.nav-cta {
+  padding: 8px 20px;
+  font-size: 14px;
+}
 .btn-primary {
   background-color: var(--accent);
   color: var(--bg);
